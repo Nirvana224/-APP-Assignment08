@@ -1,0 +1,106 @@
+/*<nav> is the parent to all the navigation links,so we can add display: flex to it.*/
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    gap: 30px;
+    background-color: black; 
+    height: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid blak;
+    border-bottom: 1px solid black;
+    position: fixed;
+   ;
+    width: 100%;
+    margin-top: 0px;
+        
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 5px;
+    padding: 5px 0px;
+    }
+    nav a:hover {
+    color: aqua;
+    }
+    /* .ourteam-img {
+        position: relative;
+        overflow: hidden;
+    } */
+    .ourteam-img:hover {
+        background-color:  rgb(247, 247, 194);
+    } 
+    img {
+        width: 800px;
+        height: 800px;
+        margin-right: 200px;
+        margin-left: 280px;
+    
+    }
+    p {
+    margin-left: 280px;
+    margin-right: 250px;
+    }
+    footer {
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        margin-right: 5px;
+        padding: 5px 0px;
+        margin-top: 50px;
+    }
+    p {
+        margin-top: 50px;
+    }
+    .ourteam-img .ourteam-title {
+        background-color: antiquewhite;
+        border: 2px solid black;
+        padding: 5px;
+        text-align: center;
+        position: absolute;
+        top: 280px;
+        left: 280px;
+        overflow: hidden;
+    
+        /*By defeult hide the ourteam-title*/
+        visibility: hidden;
+    }
+    .ourteam-img:hover .ourteam-title {
+        visibility: visible;
+    }
+    main {
+        background-color:  rgb(247, 247, 194);
+    }
+    .testmonial{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        margin-left: 96px;
+    }
+    .picture{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .photo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       width: 350px;
+    }
+   .paragraph{
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+   }
+   h2 {
+    margin-left: 280px;
+   }

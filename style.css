@@ -1,0 +1,161 @@
+ /*<nav> is the parent to all the navigation links,so we can add display: flex to it.*/
+ nav {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    gap: 30px;
+    background-color: black; 
+    height: 30px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid blak;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+        
+}
+head, body {
+margin: 0px;
+padding: 10px;
+}
+header_h1 {
+margin: 0px;
+top: 0px;
+padding-bottom: 100px;
+}
+nav a {
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+margin-right: 5px;
+padding: 5px 0px;
+}
+nav a:hover {
+color: aqua;
+}
+img {
+width: 700px;
+height: 650px;
+padding-left: 20px;
+margin-top: 1px;
+padding-top: px;
+}
+.product-detail {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 20px;
+   float: left;
+}  
+.promo-code {
+font-size: 16px;
+line-height: 1.6;
+padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 4px ;
+    
+}
+header {
+margin-left: 800px;
+}
+
+
+.new_post{
+width: 22%;
+height: 385px;
+float: left;
+padding: 15px 15px;
+position: relative;
+
+}
+ .new_post:hover {
+  background-color: aqua;  
+}
+.new_post_cord{
+width: 100%;
+height: 385px;
+box-shadow: 0px 1px 10px;
+background-color: rgb(190, 91, 141);
+border: solid 2px ;
+position: relative;
+}
+.new_post_pic{
+width: 80%;
+height: 285px;
+padding: 10px 50px;
+
+}
+.new_post_pic img{
+width: 80%;
+height: 100%;
+opacity: 1;
+}
+.new_post:hover img {
+    opacity: 0.5;
+}
+.new_post_body{
+padding: 10px;
+margin-left: 0px;
+}
+.new_post_title{
+margin: 0px;
+float: left;
+font-weight: 400;
+font-size: 20px;
+
+}
+.new_post_price{
+margin: 0px;
+float: right;
+color: #d33131;
+font-size: 20px;
+text-decoration: line-through;
+}
+.new_post_description{
+margin: 0px;
+float: left;
+font-size: 18px;
+}
+.new_post_off{
+margin: 0px;
+float: right;
+font-size: 18px;
+}
+main {
+background-color: rgb(247, 247, 194);
+}
+.text {
+margin-right: 10px;
+margin-left: 20px;
+}
+.like {
+margin-top: 500px;
+}
+
+.product-detail {
+margin-top: 100px;
+}
+h1 {
+    margin-top: 100px;
+}
+ .new_post .new_post-name {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    /*By defeult hide the new-post-name*/
+    visibility: hidden;
+    
+}
+.new_post:hover .new_post-name {
+  visibility: visible;
+}
